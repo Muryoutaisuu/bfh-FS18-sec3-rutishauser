@@ -82,5 +82,5 @@ root@hlUbuntu32:~/challenges/challenge01# readelf -l -S challenge1
 	   05     .note.ABI-tag .note.gnu.build-id
 	   06     .eh_frame_hdr
 	   07
-```
 	   08     .init_array .fini_array .jcr .dynamic .got
+```
