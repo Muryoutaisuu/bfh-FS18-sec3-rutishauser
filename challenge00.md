@@ -1,11 +1,8 @@
 # Questions
 ## Main questions
-1. What is the address of the code section?
-	.text -> segment 02 -> first LOAD line -> 0x08048000 
-2. Where does the heap start?
-	.bss -> segment 3 -> second LOAD line -> 0x08049f08 
-3. Where does the stack start? Are you sure?
-	Segment GNU_STACK -> 0x00000000 -> no, the stack starts at the end and the addresses shrink -> 0xfffdd000 0xffffe000
+1. What is the address of the code section? - `.text -> segment 02 -> first LOAD line -> 0x08048000`
+2. Where does the heap start? - `.bss -> segment 3 -> second LOAD line -> 0x08049f08 `
+3. Where does the stack start? Are you sure? - `Segment GNU_STACK -> 0x00000000 -> no, the stack starts at the end and the addresses shrink -> 0xfffdd000 0xffffe000`
 ## Secondary questions
 Try this challenge on a 64 bit system.
 1. What is the address of the code section?
